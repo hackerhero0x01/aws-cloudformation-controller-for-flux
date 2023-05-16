@@ -1,0 +1,21 @@
+# More info: https://docs.docker.com/engine/reference/builder/#dockerignore-file
+# Ignore build and test binaries and configuration.
+bin/
+testbin/
+testdata/
+internal/integtests/
+cover.out
+*.yaml
+config/
+Makefile
+PROJECT
+
+# Ignore git
+**/.git
+.gitignore
+
+# Ignore docs
+**/*.md
+docs/
+examples/
+demo.sh
